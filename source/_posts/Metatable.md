@@ -1,9 +1,7 @@
-# Metatable
-
-作者: 沈鑫豪
-日期: March 9, 2023 7:46 PM
-
-## 官方解释：
+---
+title: Metatable
+---
+## 官方解释
 
 metatable允许我们改变table 的行为，例如，使用Metatable可以定义Lua如何计算两个table的相加操作。
 
