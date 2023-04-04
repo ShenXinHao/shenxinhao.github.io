@@ -1,5 +1,7 @@
 ---
 title: Metatable
+categories:
+ - Lua
 ---
 ## 官方解释
 
