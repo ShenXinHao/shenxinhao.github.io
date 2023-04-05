@@ -135,7 +135,7 @@ const btf = {
 
     let start = null
     pos = +pos
-    window.requestAnimationFrame(function step (currentTime) {
+    window.requestAnimationFrame(function step(currentTime) {
       start = !start ? currentTime : start
       const progress = currentTime - start
       if (currentPos < pos) {
@@ -157,7 +157,7 @@ const btf = {
   },
 
   animateOut: (ele, text) => {
-    ele.addEventListener('animationend', function f () {
+    ele.addEventListener('animationend', function f() {
       ele.style.display = ''
       ele.style.animation = ''
       ele.removeEventListener('animationend', f)
@@ -223,7 +223,7 @@ const btf = {
     if (service === 'mediumZoom') {
       const zoom = mediumZoom(ele)
       zoom.on('open', e => {
-        const photoBg = document.documentElement.getAttribute('data-theme') === 'dark' ? '#121212' : '#fff'
+        const photoBg = document.documentElement.getAttribute('data-theme') === 'dark' ? '#121212' : '#121212'
         zoom.update({
           background: photoBg
         })
